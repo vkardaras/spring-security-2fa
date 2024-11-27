@@ -18,16 +18,6 @@ public class InitializeData {
     @Bean
     CommandLineRunner commandLineRunner(UserRepository userRepository, PasswordEncoder encoder, AuthorityRepository authorityRepository) {
         return args -> {
-
-            /*
-            if (userRepository.findAll().isEmpty()) {
-                userRepository.save(new User("user", encoder.encode("password"), "ROLE_USER"));
-                userRepository.save(new User("admin", encoder.encode("password"), "ROLE_USER,ROLE_ADMIN"));
-            }
-
-             */
-
-            //*
             if (authorityRepository.findAll().isEmpty()) {
                 Authority authUser = authorityRepository.save(new Authority("ROLE_USER"));
                 Authority authAdmin = authorityRepository.save(new Authority("ROLE_ADMIN"));
@@ -38,9 +28,6 @@ public class InitializeData {
                     userRepository.save(new User("admin", encoder.encode("password"), "ROLE_USER,ROLE_ADMIN", Set.of(authUser, authAdmin)));
                 }
             }
-
-            // */
-
         };
     }
 }

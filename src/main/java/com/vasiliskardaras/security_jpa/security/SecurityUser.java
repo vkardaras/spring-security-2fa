@@ -28,20 +28,10 @@ public class SecurityUser implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        /*
+        //*
         return user.getAuthorities()
                 .stream()
                 .map(authority -> new SimpleGrantedAuthority(authority.getName()))
                 .toList();
-
-        // */
-        //*
-        return Arrays.stream(user
-                        .getRoles()
-                        .split(","))
-                .map(SimpleGrantedAuthority::new)
-                .toList();
-
-        // */
     }
 }
