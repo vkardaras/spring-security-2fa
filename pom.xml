@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vasiliskardaras</groupId>
-	<artifactId>security-jpa</artifactId>
+	<artifactId>security-2fa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>security-jpa</name>
+	<name>security-2fa</name>
 	<description>Demo project for Spring Boot Security with JPA</description>
 	<properties>
 		<java.version>21</java.version>

@@ -1,6 +1,6 @@
-package com.vasiliskardaras.security_jpa.security;
+package com.vasiliskardaras.security_2fa.security;
 
-import com.vasiliskardaras.security_jpa.model.User;
+import com.vasiliskardaras.security_2fa.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,8 +1,7 @@
-package com.vasiliskardaras.security_jpa.repository;
+package com.vasiliskardaras.security_2fa.repository;
 
-import com.vasiliskardaras.security_jpa.model.User;
+import com.vasiliskardaras.security_2fa.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
 

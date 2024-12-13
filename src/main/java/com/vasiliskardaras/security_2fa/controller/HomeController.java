@@ -1,4 +1,4 @@
-package com.vasiliskardaras.security_jpa.controller;
+package com.vasiliskardaras.security_2fa.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

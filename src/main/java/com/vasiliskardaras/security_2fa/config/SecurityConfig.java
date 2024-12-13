@@ -1,6 +1,6 @@
-package com.vasiliskardaras.security_jpa.config;
+package com.vasiliskardaras.security_2fa.config;
 
-import com.vasiliskardaras.security_jpa.service.JpaUserDetailsService;
+import com.vasiliskardaras.security_2fa.service.JpaUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;

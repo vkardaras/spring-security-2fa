@@ -1,9 +1,9 @@
-package com.vasiliskardaras.security_jpa.config;
+package com.vasiliskardaras.security_2fa.config;
 
-import com.vasiliskardaras.security_jpa.model.Authority;
-import com.vasiliskardaras.security_jpa.model.User;
-import com.vasiliskardaras.security_jpa.repository.AuthorityRepository;
-import com.vasiliskardaras.security_jpa.repository.UserRepository;
+import com.vasiliskardaras.security_2fa.model.Authority;
+import com.vasiliskardaras.security_2fa.model.User;
+import com.vasiliskardaras.security_2fa.repository.AuthorityRepository;
+import com.vasiliskardaras.security_2fa.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;

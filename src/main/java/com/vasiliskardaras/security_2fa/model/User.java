@@ -1,4 +1,4 @@
-package com.vasiliskardaras.security_jpa.model;
+package com.vasiliskardaras.security_2fa.model;
 
 import jakarta.persistence.*;
 

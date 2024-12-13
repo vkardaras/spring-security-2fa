@@ -1,7 +1,7 @@
-package com.vasiliskardaras.security_jpa.service;
+package com.vasiliskardaras.security_2fa.service;
 
-import com.vasiliskardaras.security_jpa.repository.UserRepository;
-import com.vasiliskardaras.security_jpa.security.SecurityUser;
+import com.vasiliskardaras.security_2fa.repository.UserRepository;
+import com.vasiliskardaras.security_2fa.security.SecurityUser;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
